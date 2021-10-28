@@ -15,7 +15,7 @@ double ran,min,max,sum;
 printf("Введите количество чисел\n");
 scanf("%d\n",&n);
      
-printf("Введите диапазон min,max:\n");
+printf("Введите диапазон min,max\n");
 scanf("%lf",&min);
 scanf("%lf",&max);
     
