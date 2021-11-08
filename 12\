@@ -24,7 +24,7 @@ srand(time(NULL));
 
 
     
-    for ( i=0; i<n+1; i++)
+    for ( i=0; i<n; i++)
 {                
         ran= min + (double)rand()/ RAND_MAX *(max-min+1); //создаю рандомное число
         printf("%d", i); //вывожу номер
@@ -36,7 +36,7 @@ srand(time(NULL));
             
         int s=ran*10;//нахожу первое число после запятой
         float d=s%10;
-        for (int j=0; j<n+1;j++)
+        for (int j=0; j<n;j++)
         {
         if (d==j)//равно ли это число номеру?           
         sum=sum-ran;
@@ -52,7 +52,7 @@ srand(time(NULL));
       {
           int s=ran*100;//нахожу первое число после запятой
           double d=s%100;
-           for (int j=0; j<n+1;j++)
+           for (int j=0; j<n;j++)
            {
           if (d==j)//равно ли это число номеру?           
           sum=sum-ran;
